@@ -13,9 +13,19 @@
   display: flex;
   justify-content: center;
 }
+.contact-list-group li {
+  text-align: justify;
+  margin: 0 auto;
+}
 
 @media (min-width: 760px) {
   .user-input {
     width: 50%;
+  }
+}
+@media (max-width: 992px) {
+  .contact-row {
+    display: flex;
+    flex-direction: column;
   }
 }
