@@ -1,0 +1,21 @@
+.col-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-image {
+  height: 350px;
+}
+.bg-color-about {
+  background-color: #e8f6f8;
+}
+.map {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 760px) {
+  .user-input {
+    width: 50%;
+  }
+}
