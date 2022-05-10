@@ -13,6 +13,10 @@
   color: #f8f8f8;
   font-size: 2rem;
 }
+.home button {
+  border: none;
+  box-shadow: 1px 3px 5px #fff;
+}
 .home .container img {
   display: block;
   width: 100%;
