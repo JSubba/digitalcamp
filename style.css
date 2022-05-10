@@ -1,3 +1,23 @@
+::-webkit-scrollbar {
+  width: 0.85rem;
+}
+::-webkit-scrollbar-thumb {
+  background: #212529;
+  border: 1px solid #f8f8f8;
+  border-radius: 5px;
+}
+.navbar-toggler {
+  border: none;
+}
+.toggler-icon {
+  color: #f8f8f8;
+  font-size: 2rem;
+}
+.home .container img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
 .col-image {
   display: flex;
   justify-content: center;
@@ -6,24 +26,59 @@
 .about-image {
   height: 350px;
 }
-.bg-color-about {
-  background-color: #e8f6f8;
-}
 .map {
   display: flex;
   justify-content: center;
+}
+.nav-item a:hover {
+  opacity: 0.6;
+  text-decoration: underline;
 }
 .contact-list-group li {
   text-align: justify;
   margin: 0 auto;
 }
+.input-group {
+  max-width: 780px;
+  margin: 0 auto;
+}
+button:focus,
+input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.btn-light:hover {
+  opacity: 0.9;
+}
+.card:hover {
+  transform: scale(1.1);
+  animation: pulse;
+  animation-duration: 2s;
+}
+footer .bi:hover {
+  opacity: 0.7;
+  animation: flash;
+  animation-duration: 1s;
+}
 
-@media (min-width: 760px) {
-  .user-input {
-    width: 50%;
+@media (max-width: 560px) {
+  .about-btn {
+    padding: 2px;
+  }
+}
+@media (max-width: 760px) {
+  .modal-size {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .home .container img {
+    margin-top: 4em;
   }
 }
 @media (max-width: 992px) {
+  .navbar-nav li {
+    padding: 10px;
+  }
   .contact-row {
     display: flex;
     flex-direction: column;
